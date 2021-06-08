@@ -1,0 +1,153 @@
+
+
+/* Navbar */
+.navbar-brand, .nav-link {
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    font-family: Oswald;
+    font-size: 24px;
+    padding-left: 4px;
+}
+
+
+/* Jumbotron */
+.jumbotron{
+    background: linear-gradient(to bottom, transparent, #ccffcc, 175%, #ccffcc),  url(img/foto-pabrik-kpi1.jpg) ;
+    -webkit-background-size: cover;
+    background-size: cover ;
+    height: 640px;
+}
+
+.jumbotron .display-4 {
+    text-align-last: center;
+    padding-top: 150px;
+}
+
+.jumbotron h1 {
+    font-family: 'Libre Baskerville', serif;
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+    color: white;
+    text-shadow: 3px 3px black;
+    -webkit-text-stroke: 1px black;
+}
+
+/* Info Panel */
+
+.info-panel {
+    background-color: white;
+    box-shadow: 0 3px 20px rgba(0, 0, 0, 0.3);
+    border-radius: 12px;
+    margin-top: -100px;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 100px;
+    height: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 3px;
+}
+
+.info-panel p {
+    font-size: 18px;
+    color: grey;
+    margin-top: -3px;
+    font-weight: 200;
+}
+
+/* Workingspace */
+.workingspace {
+    margin-top: 120px;
+}
+
+.workingspace h3 {
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 30px;
+}
+
+.workingspace p {
+    text-align: justify;
+    font-size: 16px;
+    margin: 25px 0;
+}
+
+.workingspace img {
+    border-radius: 15px;
+}
+
+.workingspace a {
+    border-radius: 25px;
+}
+
+/* Utility */
+.logo-image{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-top: -6px;
+    text-align: left;
+}
+
+/* Mobile Ver */
+@media (max-width: 480px) {
+    .jumbotron .display-4 {
+        font-size: 27px;
+    }
+    .jumbotron h1 {
+        font-family: 'Libre Baskerville', serif;
+        text-align: justify;
+        -moz-text-align-last: center;
+        text-align-last: center;
+        color: white;
+        text-shadow: 0.5px 0.5px black;
+        -webkit-text-stroke: 0.7px black;
+    }
+
+    .workingspace h3 {
+        font-size: 20px;
+        font-weight: bold;
+        text-transform: uppercase;
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    .workingspace a {
+        margin: 0 auto;
+        display: block;
+    }
+}
+
+/* DESKTOP VER */
+@media (min-width: 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        font-family: Roboto Condensed;
+        margin-right: 20px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #00FF00;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 4px;
+        margin-bottom: -7px;
+
+    }
+}
+
+
