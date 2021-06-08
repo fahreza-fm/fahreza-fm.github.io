@@ -95,6 +95,10 @@
 
 /* Mobile Ver */
 @media (max-width: 480px) {
+    .navbar-brand {
+        height: 30px;
+        width: 1500px;
+    }
     .jumbotron .display-4 {
         font-size: 27px;
     }
@@ -124,6 +128,11 @@
 
 /* DESKTOP VER */
 @media (min-width: 992px) {
+    .navbar-brand {
+        height: 60px;
+        width: 300px;
+    }
+
     .nav-link {
         text-transform: uppercase;
         font-family: Roboto Condensed;
