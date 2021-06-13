@@ -1,5 +1,3 @@
-
-
 /* Navbar */
 .navbar-brand, .nav-link {
     margin-bottom: 0px;
@@ -92,6 +90,94 @@
     border-radius: 25px;
 }
 
+footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+}
+
+footer li {
+    float: left;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.fa-youtube {
+    color: #696969;
+}
+
+.fa-twitter-square {
+    color: #696969;
+}
+
+.fa-instagram {
+    color: #696969;
+}
+
+.fa-linkedin {
+    color: #696969;
+}
+
+.gedung-pt-kpi {
+    display: flex;
+    flex-direction: row left to right;
+    justify-content: space-between;
+    margin-top: 250px;
+    background: linear-gradient(to top, transparent, #ccffcc, 175%, #ccffcc);
+    font-family: 'Hammersmith One', sans-serif;
+}
+
+.gedungkpi1 h3{
+    display: flex;
+}
+
+.gedungkpi2 h3 {
+    display: flex;
+}
+
+.gedungkpi3 h3{
+    display: flex;
+}
+
+.alamat-kantor-kpi {
+    display: flex;
+    flex-direction: row left to right;
+    justify-content: space-between;
+    margin-top: 10px;
+    background: linear-gradient(to bottom, transparent, #ccffcc, 175%, #ccffcc);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.alamat-pt-kpi1 {
+    display: flex;
+}
+
+.alamat1 {
+    margin-left: 3px;
+}
+
+.alamat-pt-kpi2 {
+    display: flex;
+}
+
+.alamat2 {
+    margin-left: 3px;
+}
+
+.alamat-pt-kpi3 {
+    display: flex;
+}
+
+.alamat3 {
+    margin-left: 3px;
+}
+
+.uppercase {
+    margin-top: 30px;
+}
+
 
 /* Mobile Ver */
 @media (max-width: 480px) {
@@ -120,6 +206,15 @@
         margin: 0 auto;
         display: block;
     }
+
+    .gedung-pt-kpi {
+        display: none;
+    }
+
+    .alamat-kantor-kpi {
+        display: none;
+    }
+
 }
 
 /* DESKTOP VER */
@@ -144,6 +239,26 @@
         padding-bottom: 4px;
         margin-bottom: -7px;
 
+    }
+
+    .fa-youtube:hover {
+        color: #00FF00;
+    }
+    
+    .fa-twitter-square:hover {
+        color: #00FF00;
+    }
+    
+    .fa-instagram:hover {
+        color: #00FF00;
+    }
+    
+    .fa-linkedin:hover {
+        color: #00FF00;
+    }
+
+    .inb {
+        float: right;
     }
 }
 
