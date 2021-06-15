@@ -144,7 +144,7 @@ footer li {
 .alamat-kantor-kpi {
     display: flex;
     flex-direction: row left to right;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-top: 10px;
     background: linear-gradient(to bottom, transparent, #ccffcc, 175%, #ccffcc);
     font-family: 'Roboto Condensed', sans-serif;
@@ -152,6 +152,7 @@ footer li {
 
 .alamat-pt-kpi1 {
     display: flex;
+    margin-left: -40px;
 }
 
 .alamat1 {
