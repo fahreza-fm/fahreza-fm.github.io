@@ -171,6 +171,7 @@ footer li {
 
 .alamat-pt-kpi3 {
     display: flex;
+    align-self: auto;
 }
 
 .alamat3 {
